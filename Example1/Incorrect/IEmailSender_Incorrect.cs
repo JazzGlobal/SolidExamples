@@ -1,10 +1,10 @@
-namespace SolidExamples.Example1;
+namespace SolidExamples.Example1.Incorrect;
 
-public struct Email 
+public class Email 
 {
-    public string sender;
-    public string receiver;
-    public string content;
+    public string sender = "";
+    public string receiver = "";
+    public string content = "";
 }
 
 public interface IEmailSender_Incorrect
